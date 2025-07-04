@@ -3,12 +3,12 @@ plugins {
 }
 
 android {
-    namespace = "com.example.hw4"
+    namespace = "com.example.homework4"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.hw4"
-        minSdk = 28
+        applicationId = "com.example.homework4"
+        minSdk = 29
         targetSdk = 35
         versionCode = 1
         versionName = "1.0"
@@ -40,4 +40,5 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+    implementation(libs.cardview)
 }

@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "hw4"
+rootProject.name = "Homework4"
 include(":app")
  
